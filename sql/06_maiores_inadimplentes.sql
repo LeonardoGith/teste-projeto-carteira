@@ -9,5 +9,5 @@ FROM contratos c
 JOIN clientes cl ON cl.cliente_id = c.cliente_id
 JOIN agencias a ON a.agencia_id = c.agencia_id
 WHERE c.status = 'inadimplente'
-ORDER BY c.valor_emprestado
+ORDER BY c.valor_emprestado DESC
 LIMIT 10;
