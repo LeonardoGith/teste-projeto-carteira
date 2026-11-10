@@ -1,0 +1,32 @@
+cliente_id;nome;telefone;parcelas_em_aberto;valor_em_aberto
+22;Zeca Siqueira;(45) 93172-4701;6;34089.30
+42;Zeca Almeida;;2;2905.98
+15;Nilton Almeida;(59) 93023-1267;1;570.80
+57;Karina Cardoso;(59) 92065-5152;1;8997.89
+61;Bruno Rezende;(52) 97650-4472;16;10652.64
+10;Gabriela Almeida;(45) 94359-7340;13;25569.59
+6;Rafael Pacheco;(59) 98474-5987;3;5264.06
+50;Olívia Almeida;(52) 95248-3211;3;15089.46
+14;Elisa Cardoso;(66) 98298-7213;1;5457.12
+13;Fábio Junqueira;(59) 96882-5489;20;84734.96
+2;Hugo Duarte;(31) 93872-1466;1;623.02
+75;Queila Nogueira;(17) 99495-4240;1;965.65
+7;Karina Gomes;(24) 97716-8903;1;1670.43
+76;Rafael Junqueira;(38) 92830-6538;2;302.16
+18;Tiago Junqueira;(38) 91167-5640;4;7620.68
+68;Elisa Vasconcelos;;5;2381.35
+60;Lucas Pacheco;(17) 91345-8523;10;16868.00
+9;Olívia Nogueira;(38) 98296-1735;1;452.32
+72;Marina Henriques;(38) 93983-4318;6;6831.66
+77;Nilton Henriques;(66) 99988-3932;1;211.98
+3;João Farias;(24) 99340-1719;16;10348.58
+67;Zeca Esteves;(52) 94193-7703;1;2109.93
+63;Gabriela Teixeira;(38) 95113-8442;6;11359.26
+39;Úrsula Vasconcelos;(59) 96773-2064;3;14943.39
+36;Lucas Barros;(59) 96183-4646;2;1028.54
+16;Úrsula Lacerda;(24) 97385-4007;1;1043.25
+62;Hugo Esteves;;1;157.32
+46;Zeca Cardoso;(24) 95793-3641;1;700.15
+12;Tiago Ibiapina;(31) 98731-1718;3;11100.75
+25;Lucas Esteves;(52) 99553-5724;2;7311.58
+33;Lucas Rezende;(52) 96091-7653;5;2403.10

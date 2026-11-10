@@ -4,3 +4,10 @@
 -- Atenção: Ordene do maior valor emprestado para o menor.
 -- Escreva uma única consulta abaixo. Teste na sua IDE e depois rode: npm test
 
+SELECT c.contrato_id, cl.nome AS cliente, a.nome AS agencia, c.valor_emprestado
+FROM contratos c
+JOIN clientes cl ON cl.cliente_id = c.cliente_id
+JOIN agencias a ON a.agencia_id = c.agencia_id
+WHERE c.status = 'inadimplente'
+ORDER BY c.valor_emprestado
+LIMIT 10;

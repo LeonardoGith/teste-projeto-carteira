@@ -4,3 +4,7 @@
 -- Atenção: Arredonde ticket_medio para 2 casas decimais.
 -- Escreva uma única consulta abaixo. Teste na sua IDE e depois rode: npm test
 
+SELECT COUNT(*) AS total_contratos,
+       SUM(valor_emprestado) AS total_emprestado,
+       ROUND(AVG(valor_emprestado), 2) AS ticket_medio
+FROM contratos;

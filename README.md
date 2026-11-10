@@ -2,7 +2,7 @@
 
 [![Correção do projeto](../../actions/workflows/corrigir.yml/badge.svg)](../../actions/workflows/corrigir.yml)
 
-> ✏️ Troque esta linha por uma frase sua sobre o projeto. Exemplo: "Projeto em que analisei a carteira de uma financeira fictícia para encontrar onde está o risco de inadimplência."
+> Repositório de teste da correção automática do TrainingDevJob.
 
 Projeto de portfólio feito na trilha de SQL do **TrainingDevJob**. Todas as consultas são corrigidas automaticamente a cada envio: o selo acima fica verde quando todas as respostas estão certas.
 
@@ -40,11 +40,11 @@ Os resultados de cada consulta ficam em [`resultados/`](resultados), em CSV, ger
 
 ## Conclusões
 
-> ✏️ Escreva aqui de 3 a 5 conclusões com números tirados das suas consultas. Exemplo de formato: "A agência X tem a maior taxa de inadimplência (Y%), quase o dobro da média."
+> As agências Pituba (41,67%) e Aldeota (40,00%) concentram a inadimplência; Boa Viagem tem a menor taxa (6,67%).
 
 ### Recomendações
 
-> ✏️ O que você recomendaria para a gerência de risco a partir desses números? De 2 a 3 recomendações curtas.
+> Revisar a política de concessão em Pituba e Aldeota.
 
 As escolhas que fiz em cada consulta estão em [`docs/decisoes.md`](docs/decisoes.md).
 
@@ -60,4 +60,4 @@ npm test                  # corrige as consultas e gera os CSVs em resultados/
 
 ## Ferramentas
 
-PostgreSQL 18 · SQL · GitHub Actions (correção automática) · ✏️ a IDE que você usou
+PostgreSQL 18 · SQL · GitHub Actions (correção automática) · VS Code

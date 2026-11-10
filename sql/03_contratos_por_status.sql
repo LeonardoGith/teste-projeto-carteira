@@ -3,3 +3,6 @@
 -- Colunas, nesta ordem: status, contratos, total_emprestado
 -- Escreva uma única consulta abaixo. Teste na sua IDE e depois rode: npm test
 
+SELECT status, COUNT(*) AS contratos, SUM(valor_emprestado) AS total_emprestado
+FROM contratos
+GROUP BY status;
